@@ -1,0 +1,95 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 50px 50px;
+    color: #0A032F;
+}
+
+body {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.banner {
+    font-family: 'Cormorant Garamond';
+    display: inline-block;
+    border: 1px #222222 solid;
+    margin: 10px auto;
+    padding: 5px 200px;
+    text-transform: uppercase;
+}
+#link {
+    color: rgb(219, 21, 64);
+}
+#open {
+    margin: 0 auto;
+    height: 230px;
+    width: 600px;
+    padding: 5px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-family: 'Nanum Gothic';
+    line-height: 40px;
+}
+p {
+    font-size: 15px;
+    color: #222222;
+}
+h1 {
+    font-size: 140px;
+    border: 3px #222222 solid;
+    width: 1200px;
+    margin: 0 auto;
+    color: #222222;
+    letter-spacing: 5px;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #222222;
+}
+#title_s {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240);
+    padding: 14px;
+}
+#intro {
+    font-size: 50px;
+}
+.tmi {
+    font-family: 'Nanum Gothic', sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#follow {
+    font-size: 20px;
+    color: rgb(219, 21, 64);
+    font-family: 'Nanum Gothic', sans-serif;
+}
